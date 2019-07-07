@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="?actionBarSize"
+    android:alpha="0.8"
+    android:paddingBottom="@dimen/margin_8"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="6dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/button_bg"
+            android:gravity="center"
+            android:padding="@dimen/margin_10"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/margin_15"
+            android:layout_marginBottom="@dimen/margin_4"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_4"
+            android:layout_marginBottom="@dimen/margin_25">
+
+            <TextView
+                android:id="@+id/change_phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_18"
+                android:layout_marginRight="@dimen/margin_18"
+                android:padding="@dimen/margin_8"
+                android:textAllCaps="true"
+                android:textColor="@color/off_black"
+                android:textSize="@dimen/margin_15"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+
+            <TextView
+                android:id="@+id/resend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_8"
+                android:textAllCaps="true"
+                android:textColor="@color/button_bg"
+                android:textSize="@dimen/margin_15"
+                android:textStyle="bold"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+        <com.victor.loading.book.BookLoading
+            android:id="@+id/bookloading"
+            android:layout_width="@dimen/margin_80"
+            android:layout_height="@dimen/margin_80"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/edit_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_10"
+            android:background="@drawable/border_blue"
+            android:cursorVisible="true"
+            android:padding="@dimen/margin_8"
+            android:drawablePadding="@dimen/margin_8"
+            android:gravity="start"
+            android:imeOptions="actionDone"
+            android:textColor="@color/button_bg"
+            android:textColorHint="@color/off_black"
+            android:textCursorDrawable="@color/button_bg"
+            android:textSize="@dimen/margin_15" />
+
+
+        <EditText
+            android:id="@+id/edit_txt_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_10"
+            android:background="@drawable/border_blue"
+            android:cursorVisible="true"
+            android:padding="@dimen/margin_8"
+            android:drawablePadding="@dimen/margin_8"
+            android:gravity="start"
+            android:imeOptions="actionDone"
+            android:textColor="@color/button_bg"
+            android:textColorHint="@color/off_black"
+            android:textCursorDrawable="@color/button_bg"
+            android:textSize="@dimen/margin_15"
+            android:layout_marginTop="@dimen/margin_10"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin_18"
+            android:layout_marginBottom="@dimen/margin_10">
+
+            <TextView
+                android:id="@+id/cancel_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_18"
+                android:layout_marginRight="@dimen/margin_18"
+                android:padding="@dimen/margin_8"
+                android:textAllCaps="true"
+                android:textColor="@color/off_black"
+                android:textSize="@dimen/margin_15"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_8"
+                android:textAllCaps="true"
+                android:textColor="@color/button_bg"
+                android:textSize="@dimen/margin_15"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

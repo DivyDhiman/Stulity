@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_bg">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/semi_transparent_color" />
+
+    <com.github.glomadrian.grav.GravView
+        android:id="@+id/grav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:animationGenerators="@array/BubbleAnimations"
+        app:array_colors="@array/bubble"
+        app:ball_from_size="10dp"
+        app:ball_to_size="20dp"
+        app:colorGenerator="com.github.glomadrian.grav.generator.paint.ArrayColorGenerator"
+        app:gravGenerator="com.github.glomadrian.grav.generator.grav.BallGenerator"
+        app:pointGenerator="com.github.glomadrian.grav.generator.point.RegularPointGenerator"
+        app:regular_cell_size="300"
+        app:regular_variance="200"
+        app:shake_direction="vertical"
+        app:shake_max_duration="20000"
+        app:shake_min_duration="10000"
+        app:shake_variance="500dp"
+        app:side_to_side_direction="leftToRight"
+        app:side_to_side_max_duration="10000"
+        app:side_to_side_min_duration="10000" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.07"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/skip_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="@dimen/margin_8"
+                android:layout_marginRight="@dimen/margin_8"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="@string/skip"
+                android:textColor="@color/white"
+                android:textSize="@dimen/margin_13" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/margin_10"
+            android:layout_marginEnd="@dimen/margin_50"
+            android:layout_marginStart="@dimen/margin_50"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <com.victor.loading.newton.NewtonCradleLoading
+                android:id="@+id/newton_cradle_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/margin_80"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="@dimen/margin_80"
+                android:layout_height="@dimen/margin_45"
+                android:layout_centerInParent="true"
+                android:background="@drawable/app_logo" />
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.14" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/margin_25"
+            android:layout_marginStart="@dimen/margin_25"
+            android:layout_weight="0.08"
+            app:cardBackgroundColor="@color/semi_transparent_white"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="6dp"
+            app:cardMaxElevation="6dp">
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:hint="@string/email_phoneno"
+                android:inputType="textEmailAddress"
+                android:paddingEnd="@dimen/margin_8"
+                android:paddingStart="@dimen/margin_8"
+                android:textColorHint="@color/text_color_hint"
+                android:textSize="@dimen/margin_13" />
+
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.03" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/margin_25"
+            android:layout_marginStart="@dimen/margin_25"
+            android:layout_weight="0.08"
+            app:cardBackgroundColor="@color/semi_transparent_white"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="6dp"
+            app:cardMaxElevation="6dp">
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:paddingEnd="@dimen/margin_8"
+                android:paddingStart="@dimen/margin_8"
+                android:textColorHint="@color/text_color_hint"
+                android:textSize="@dimen/margin_13" />
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.03" />
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/margin_25"
+            android:layout_marginStart="@dimen/margin_25"
+            android:layout_weight="0.07"
+            android:text="@string/forgot_password"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_15"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.02" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/margin_25"
+            android:layout_marginStart="@dimen/margin_25"
+            android:layout_weight="0.07"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="6dp"
+            app:cardMaxElevation="6dp">
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_register_selector"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/margin_13" />
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/margin_25"
+            android:layout_marginStart="@dimen/margin_25"
+            android:layout_weight="0.08"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.8dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.4"
+                android:background="@color/white" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:text="@string/or"
+                android:textColor="@color/white"
+                android:textSize="@dimen/margin_13"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0.8dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.4"
+                android:background="@color/white" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/margin_25"
+            android:layout_marginStart="@dimen/margin_25"
+            android:layout_weight="0.07"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardElevation="6dp"
+            app:cardMaxElevation="6dp">
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_register_selector"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="@dimen/margin_13" />
+        </android.support.v7.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05" />
+    </LinearLayout>
+</RelativeLayout>

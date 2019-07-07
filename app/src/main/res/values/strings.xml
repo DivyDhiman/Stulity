@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">Stulity</string>
+    <string name="username">Email</string>
+    <string name="email_phoneno">Email / PhoneNumber</string>
+    <string name="phoneno">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="termscondition">Terms &amp; Conditions</string>
+    <string name="or">OR</string>
+    <string name="Pleasewait">Please wait &#8230;</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="enter_first_name">Please enter first name</string>
+    <string name="enter_last_name">Please enter last name</string>
+    <string name="empty_first_name">Please enter first name</string>
+    <string name="empty_last_name">Please enter last name</string>
+    <string name="empty_email_phonenumber">Please enter email or phone number</string>
+    <string name="enter_username">Please enter phone number</string>
+    <string name="enter_password">Please enter password</string>
+    <string name="enable_internet">Please enable your internet</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="terms_of_service">Terms of service</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="email">Email</string>
+    <string name="confirm_email">Confirm email</string>
+    <string name="empty_username">Please enter your phone number</string>
+    <string name="empty_password">Please enter your password</string>
+    <string name="empty_confirm_password">Please confirm your password</string>
+    <string name="empty_email">Please enter your email id</string>
+    <string name="empty_confirm_email">Please confirm your email</string>
+    <string name="valid_email">Please enter valid email id</string>
+    <string name="password_length">Password length must be in between 6 to 20</string>
+    <string name="matches_email">Email and confirm email are not match</string>
+    <string name="matches_password">Password and confirm password are not match</string>
+    <string name="forgot_password">Forgot Password !</string>
+    <string name="register_email_id">Please enter your register email id</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="ok">Ok</string>
+    <string name="password_reset_steps">Please check your email for password reset steps</string>
+    <string name="empty_phone_number">Please enter phone number</string>
+
+
+    <string name="contact_us_menu">Contact Us</string>
+
+    <string name="type_e_book">type_e_book</string>
+    <string name="type_payment">type_payment</string>
+
+    <string name="type_location_search">Location Search</string>
+
+    <string name="terms_conditions_points">Following are terms and conditions</string>
+    <string name="post_add">Post Ad</string>
+
+    <string name="home">Home</string>
+    <string name="my_posted_ad">My Posted Ad</string>
+    <string name="my_transition_history">Transition History</string>
+
+    <string name="batuva_balace">Stulity Balance </string>
+    <string name="edit_profile">Edit Profile</string>
+
+    <string name="about_us">About Us</string>
+    <string name="sell">Sell</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share">Share</string>
+    <string name="feed_back">FAQ</string>
+    <string name="sign_out">Sign Out</string>
+
+    <string name="batuva_cash_send">Stulity Cash send</string>
+    <string name="batuva_cash_recharge">Stulity Cash reacharge</string>
+    <string name="batuva_cash_added">Stulity Cash added</string>
+    <string name="need_help">Need Help?</string>
+
+    <string name="welcome_txt">Welcome to Stulity</string>
+    <string name="search_here">Search here</string>
+
+    <string name="skip">Skip</string>
+    <string name="otp_verify_screen">OTP Verify Screen</string>
+    <string name="send">Send</string>
+    <string name="please_enter_otp">Please Enter OTP</string>
+    <string name="empty_otp">Please Enter OTP</string>
+    <string name="checking_email">Checking Email &#8230;</string>
+    <string name="checking_phone_number">Checking Phone Number &#8230;</string>
+    <string name="sending_otp">Sending OTP &#8230;</string>
+    <string name="resending_otp">Resending OTP &#8230;</string>
+    <string name="checking_otp">Checking OTP &#8230;</string>
+    <string name="verify_otp">Verify OTP &#8230;</string>
+    <string name="registering">Registering &#8230;</string>
+    <string name="loginin">Login &#8230;</string>
+    <string name="changing_password">Changing Password &#8230;</string>
+    <string name="forgot_password_screen">Forgot Password Screen</string>
+    <string name="resend">Resend</string>
+    <string name="please_enter_phone_number">Please enter phone number</string>
+    <string name="proceed">Proceed</string>
+    <string name="edit_phone_no">Edit Phone Number</string>
+    <string name="otp_resend_successfully">Otp Resend Successfully</string>
+    <string name="change_password">Change Password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="confirm_change_new_password">Confirm new password</string>
+    <string name="change">Change</string>
+    <string name="please_enter_new_password">Please enter new password</string>
+    <string name="password_not_match">Password and confirm password not match</string>
+    <string name="dummy_mobile_number">XXXXXXXXXX</string>
+    <string name="dummy_balance">XXXX</string>
+    <string name="address">Address</string>
+    <string name="enter_email">Please enter email id</string>
+    <string name="enter_address">Please enter your address</string>
+    <string name="dummy_password">XXXXXXXX</string>
+    <string name="change_contact_view">Change Contact Number View</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="no_ad_till">You are not posted any ad till, post some ad first</string>
+    <string name="price">Price : </string>
+    <string name="category">Category : </string>
+    <string name="rating">Rating : </string>
+    <string name="rating_by_user">User Rating : </string>
+    <string name="oops_something_went_wrong">Oops something went wrong !Please try after sme times</string>
+    <string name="name">Name</string>
+    <string name="please_enter_name">Please Enter name</string>
+    <string name="message">Message</string>
+    <string name="please_enter_message">Please Enter Message</string>
+    <string name="offer_by_location">Offer By Location</string>
+    <string name="offer_by_category">Offer By Category</string>
+    <string name="list_item">List item</string>
+    <string name="no_item">No items in your area</string>
+    <string name="search_dialog_layout">Search Dialog Layout</string>
+    <string name="search">Search</string>
+    <string name="Location">Location</string>
+    <string name="what_you_are_looking_for">What you are looking for</string>
+    <string name="allow">Allow</string>
+    <string name="positive_click">Positive Click</string>
+    <string name="negative_click">Negative Click</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="please_enable_gps">Please enable your GPS</string>
+    <string name="settings">Settings</string>
+
+
+
+    <!--Api Response error-->
+    <string name="error_Http_not_found">HTTP_NOT_FOUND</string>
+    <string name="error_Http_internal">HTTP_INTERNAL_ERROR</string>
+    <string name="error_Http_other">HTTP_OTHER_ERROR</string>
+    <string name="error">Error</string>
+
+    <!--API Hit Class Type-->
+    <string name="email_check">Email Check</string>
+    <string name="phone_check">Phone Check</string>
+    <string name="otp_send">Otp Send</string>
+    <string name="otp_verify">Otp Verify</string>
+    <string name="register_api">Register API</string>
+    <string name="login_api">Login API</string>
+    <string name="forgot_otp_send">Forgot Otp Send</string>
+    <string name="forgot_otp_resend">Forgot Otp Resend</string>
+    <string name="forgot_otp_verify">Forgot Otp Verify</string>
+    <string name="change_password_api">Change Password API</string>
+    <string name="logout_api">LogOut API</string>
+    <string name="get_profile_details_api">Get Profile Details API</string>
+    <string name="update_user_profile_api">Update Profile details API</string>
+    <string name="change_contact_send_otp_api">Change Contact Send Otp API</string>
+    <string name="change_contact_send_otp_resend">Change Contact Send Otp RESEND</string>
+    <string name="change_contact_number_api">Change contact number API</string>
+    <string name="ad_list_api">Ad List API</string>
+    <string name="get_ad_details_api">Get Ad Details API</string>
+    <string name="get_contact_details_api">Get Contact Details API</string>
+    <string name="send_contact_us_api">Send Contact US API</string>
+    <string name="dash_board_api">DashBoard API</string>
+    <string name="search_box_api">Search Box API</string>
+    <string name="search_box_type_api">Search Box Type API</string>
+    <string name="search_box_result_api">Search Box Result Api</string>
+    <string name="need_city_location">Need City Location</string>
+    <string name="waiting_for_your_location">Waiting for your location</string>
+    <string name="apply">Apply</string>
+
+    <!--API Request Type-->
+    <string name="get_type_api">GET</string>
+    <string name="post_type_api">POST</string>
+
+    <!--API Status-->
+    <string name="status_ok">OK</string>
+
+    <!--API Hit Issue-->
+    <string name="unable_to_connect_to_network">We are unable to connect to network, please try after some time</string>
+    <string name="facing_some_technical_issue">We are facing some technical issue, please try after some time</string>
+
+    <!--SharedPreference Keys-->
+    <string name="session_id">Session ID</string>
+    <string name="current_city">Current City</string>
+
+    <!--Recycler View adapter type-->
+    <string name="ad_adapter_view">Ad View Type</string>
+    <string name="home_adapter_view">Home View Type</string>
+    <string name="home_child_adapter_view">Home Child View Type</string>
+    <string name="home_child_Ad_adapter_view">Home Child Ad Adapter View</string>
+    <string name="home_child_location_adapter_view">Home Child Location Adapter View</string>
+    <string name="search_adapter_view">Search Adapter View</string>
+
+
+</resources>

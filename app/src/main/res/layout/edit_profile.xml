@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <include layout="@layout/custom_action_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginStart="@dimen/margin_15"
+        android:layout_marginEnd="@dimen/margin_15"
+        android:layout_marginTop="@dimen/margin_25">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.3">
+
+            <TextView
+                android:id="@+id/first_name_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/off_black"
+                android:textSize="@dimen/margin_13"
+                android:paddingTop="@dimen/margin_13"
+                android:paddingBottom="@dimen/margin_13"
+                android:text="@string/first_name"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/button_bg"/>
+
+            <TextView
+                android:id="@+id/last_name_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/off_black"
+                android:textSize="@dimen/margin_13"
+                android:paddingTop="@dimen/margin_13"
+                android:paddingBottom="@dimen/margin_13"
+                android:text="@string/last_name"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/button_bg"/>
+
+            <TextView
+                android:id="@+id/email_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/off_black"
+                android:textSize="@dimen/margin_13"
+                android:paddingTop="@dimen/margin_13"
+                android:paddingBottom="@dimen/margin_13"
+                android:text="@string/email"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/button_bg"/>
+
+            <TextView
+                android:id="@+id/address_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/off_black"
+                android:textSize="@dimen/margin_13"
+                android:paddingTop="@dimen/margin_13"
+                android:paddingBottom="@dimen/margin_13"
+                android:text="@string/address"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/button_bg"/>
+
+            <TextView
+                android:id="@+id/contact_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/off_black"
+                android:textSize="@dimen/margin_13"
+                android:paddingTop="@dimen/margin_13"
+                android:paddingBottom="@dimen/margin_13"
+                android:text="@string/password"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/button_bg"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.7">
+
+            <EditText
+                android:id="@+id/first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/button_bg"
+                android:textSize="@dimen/margin_13"
+                android:paddingTop="@dimen/margin_13"
+                android:paddingBottom="@dimen/margin_13"
+                android:hint="@string/enter_first_name"
+                android:background="@android:color/transparent"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/button_bg"/>
+
+            <EditText
+                android:id="@+id/last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/button_bg"
+                android:textSize="@dimen/margin_13"
+                android:paddingTop="@dimen/margin_13"
+                android:paddingBottom="@dimen/margin_13"
+                android:hint="@string/enter_last_name"
+                android:background="@android:color/transparent"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/button_bg"/>
+
+            <EditText
+                android:id="@+id/email_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/button_bg"
+                android:textSize="@dimen/margin_13"
+                android:paddingTop="@dimen/margin_13"
+                android:paddingBottom="@dimen/margin_13"
+                android:hint="@string/enter_email"
+                android:background="@android:color/transparent"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/button_bg"/>
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/button_bg"
+                android:textSize="@dimen/margin_13"
+                android:paddingTop="@dimen/margin_13"
+                android:paddingBottom="@dimen/margin_13"
+                android:hint="@string/enter_address"
+                android:background="@android:color/transparent"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/button_bg"/>
+
+            <TextView
+                android:id="@+id/contact_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/button_bg"
+                android:textSize="@dimen/margin_13"
+                android:paddingTop="@dimen/margin_13"
+                android:paddingBottom="@dimen/margin_13"
+                android:text="@string/dummy_password"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/button_bg"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

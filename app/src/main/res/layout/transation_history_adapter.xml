@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_15"
+        android:layout_marginEnd="@dimen/margin_13"
+        android:layout_marginStart="@dimen/margin_13"
+        android:layout_marginTop="@dimen/margin_10"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/logo_image"
+            android:layout_width="@dimen/margin_35"
+            android:layout_height="@dimen/margin_35" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_5"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:gravity="start"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/send_add_receive_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/margin_13"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/to_from_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_8"
+                    android:textColor="@color/off_black"
+                    android:textSize="@dimen/margin_13" />
+
+                <TextView
+                    android:id="@+id/time_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:textColor="@color/off_black"
+                    android:textSize="@dimen/margin_13" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/need_help"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/margin_30"
+                android:layout_gravity="bottom"
+                android:layout_weight="0.35"
+                android:gravity="center"
+                android:text="@string/need_help"
+                android:textColor="@color/button_bg"
+                android:textSize="@dimen/margin_13" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/background_light_gray" />
+
+</LinearLayout>

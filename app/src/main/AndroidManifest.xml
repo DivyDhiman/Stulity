@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.StudentFaclity.Stulity">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAQcLWEvtQ5Uub7EEI1SjS51JJwie3dyK8" />
+
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Login_activity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Registartion"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Terms_Conditions"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Dash_board"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".EditProfile"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".CentralizedWebView"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".AdDetails"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ContactUs"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".SearchData"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

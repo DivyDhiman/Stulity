@@ -1,0 +1,35 @@
+<resources>
+    - <!--  Base application theme.
+  -->
+    - <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    - <!--  Customize your theme here.
+  -->
+    <item name="android:colorPrimary">@color/colorPrimary</item>
+    <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="android:colorAccent">@color/white</item>
+
+</style>
+    <style name="customSpinnerTheme" parent="AppTheme">
+        <item name="android:colorControlNormal">@color/white</item>
+        <item name="android:colorControlActivated">@color/white</item>
+        <item name="android:colorControlHighlight">@color/white</item>
+    </style>
+
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+    </style>
+
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+    </style>
+
+    <style name="Date_picker" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">@dimen/margin_13</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+
+</resources>
